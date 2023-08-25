@@ -1,0 +1,94 @@
+.am-Input1 {
+  height: 27px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 2px;
+  border: 1px;
+  border: thin solid rgb(249, 248, 248);
+  border-bottom: 2px solid rgb(178, 184, 208);
+
+  box-shadow: 4px 4px 10px rgba(85, 81, 81, 0.06) lightgray;
+  color: rgb(5, 5, 184);
+}
+
+.am-Input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  border-radius: 3px;
+  padding: 1px 2px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: unset;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  border: 1px solid #999999;
+  background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: 12px;
+}
+
+.am-Input:focus {
+  background-color: #f1f2fb;
+}
+
+.am-TextArea {
+  height: 70px;
+  width: 100%;
+  font-size: 60%;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 5px;
+  border: thin solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  box-shadow: 0px 0px 0px lightgrey;
+  color: navy;
+}
+
+.am-File {
+  height: 25px;
+  width: 100%;
+  font-size: 60%;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 5px;
+  border: thin solid lightgrey;
+  border-bottom: 2px solid lightgrey;
+  box-shadow: 2px 2px 4px lightgrey;
+  color: navy;
+}
+
+.am-label {
+  font-size: 95%;
+  font-weight: 460;
+  color: rgb(41, 40, 41);
+}
+
+button {
+  font-weight: 720;
+}
+
+.error-message {
+  color: #cc0033;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 5px 0 0;
+}
+
+.bg-lgrey {
+  background-color: #e9edf1 !important;
+}
+
+.bg-lv {
+  background-color: #e3e2d1 !important;
+  color: #b327bf !important;
+  border-radius: 5px;
+}
